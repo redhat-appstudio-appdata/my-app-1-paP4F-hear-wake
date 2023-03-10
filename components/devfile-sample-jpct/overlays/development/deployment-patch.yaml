@@ -5,7 +5,7 @@ metadata:
   name: devfile-sample-jpct
   namespace: christianvogt-tenant
 spec:
-  replicas: 1
+  replicas: 2
   selector: {}
   strategy: {}
   template:
