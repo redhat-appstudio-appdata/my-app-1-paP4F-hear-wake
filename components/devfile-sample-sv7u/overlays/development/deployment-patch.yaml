@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-sv7u
+  namespace: christianvogt-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:64556e7fa2d06a6f30d9c308bd4d701bb638766fc35ea2e36dd45c031bc60fc0
+        name: my-nodejs
+        resources: {}
+status: {}
