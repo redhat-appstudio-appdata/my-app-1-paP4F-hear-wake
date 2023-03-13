@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jpct
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:5ec8379d7227be30b92d6aa87767aaa09bfc5004d8ac36c4f5798a9366b3031d
+      - image: quay.io/redhat-appstudio/user-workload@sha256:56c61c11cd2ca975d2ae29ac38dd09190167da06f52dad6b5f35f9a308db00b3
         name: my-nodejs
         ports:
         - containerPort: 3001
