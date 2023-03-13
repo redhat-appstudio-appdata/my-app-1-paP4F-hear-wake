@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:paP4F-devfile-sample-go-basic-2eho
+      - image: quay.io/redhat-appstudio/user-workload@sha256:668b33689e7de9595b1d3e77ed0cfdc9b97f31336249eb404fa9ec9d36e09086
         name: my-go
         resources: {}
 status: {}
